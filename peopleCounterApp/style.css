@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+ body {
+    background-image: url('images/people.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+ }
+
+ .alignment {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    align-content: center;
+    padding: 2%;
+    margin: 2% 15% 10% 15%;
+ }
+
+ #previousEntries {
+     color: rgb(12, 11, 11);
+     text-shadow: 1px;
+     font-weight: 400;
+ }
+
+ .edit {
+     padding: 40px;
+     margin: 2%;
+     margin-left: 0px;
+ }
+
+ .title {
+     color: brown;
+     font-family: 'Courier New', Courier, monospace;
+     text-align: center;
+     font-weight: 500;
+     text-shadow: 2px 2px rgb(94, 87, 87);
+ }
+
+ .coun {
+     text-align: center;
+ }
