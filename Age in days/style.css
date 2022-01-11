@@ -1,0 +1,28 @@
+.flex-box-container-1 {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+     /*flex-direction: row-reverse;*/
+    justify-content: space-around;
+}
+
+.flex-box-container-1 div {
+    padding: 10px;
+    align-items: center;
+}
+
+.container-1 {
+    padding: 5%;
+    padding-top: 0;
+    margin: 10%;
+    margin-top: 1%;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+#listBeauty {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}

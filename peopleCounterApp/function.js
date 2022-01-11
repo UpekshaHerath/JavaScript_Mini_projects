@@ -22,4 +22,6 @@ function decrement() {
 function save() {
     savingString += " - " + count;
     previousEntries.innerText = savingString;
+    count = 0;
+    countingValue.textContent = 0;
 }
