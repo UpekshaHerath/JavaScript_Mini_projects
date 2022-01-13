@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: azure;
+}
+.flex-box-container {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: fill;
+    padding: 10%;
+}
+
+.flex-box-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+input {
+    border: none;
+    border: solid darkslateblue 2px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 10px;
+}
+
+.buttonResult:hover {
+    color: darkgreen;
+    border-color: darkgreen;
+}
+
+.buttonReset:hover {
+    color: blue;
+    border-color: blue;
+}
+
+label {
+    background-color: darkslateblue;
+    border-bottom: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+}
